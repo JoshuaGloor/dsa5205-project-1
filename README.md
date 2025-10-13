@@ -13,7 +13,7 @@ Make sure you have the following installed:
 Assuming `conda` is in your `PATH` and you trust me, run:
 
 ```shell
-source setup.sh
+./setup.sh
 ```
 
 Otherwise, please open the `setup.sh` file and go through the steps yourself. The comments prefixed with _[manual]_ show you the necessary commands.
@@ -27,3 +27,7 @@ When running individual cells, VSCode should ask you to "Select a kernel to run 
 ### Render the Whole Notebook
 
 To run all code cells and render the whole notebook, select the preview icon at the top right corner or press `Cmd + Shift + K` (macOs), `Ctrl + Shift + K` (Linux/Windows). The correct jupyter kernel should automatically be selected because it is specified in the header of the Quarto file.
+
+### Troubleshoot VSCode
+
+If you get an error when executing code, use `Cmd + Shift + P` (macOs), `Ctrl + Shift + P` (Linux/Windows) to open the command palette of VSCode and then type "Python: Select Interpreter" to select the `p1` environment.
