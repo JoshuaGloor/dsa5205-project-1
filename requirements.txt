@@ -1,0 +1,16 @@
+# Requirements file for DSQF project 1
+
+# Math and data
+numpy
+pandas
+
+# ML
+scikit-learn
+
+# Plots and visual helpers
+matplotlib
+tqdm
+
+# Core for Quarto execution
+jupyter
+ipykernel
